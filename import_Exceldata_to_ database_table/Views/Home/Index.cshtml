@@ -6,13 +6,103 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <input type="file" name="files" class="form-control" required="required" />
+                <input type="file" id="fileupload" name="files"  class="form-control" required="required" />
+
             </div>
             <div class="col-md-3">
-                <input type="submit" class="btn btn-primary" />
+                <input type="button" value="Save" class="btn btn-success" id="btnUpload" />
+                <input type="button" name="upload" value="Show Data" id="btnShow" class="btn btn-primary" />
                 <br />
-                <span style="color:green">@ViewBag.msg</span>
+                <span id="msg" style="color:green"></span>
+                <span id="error" style="color:red;"></span>
             </div>
+        </div>
+        <div class="clearfix">&nbsp;</div>
+        <div class="row">
+            <div id="divPrint"></div>
         </div>
     </div>
 </form>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#btnShow').on('click', function () {
+            var fileExtension = ['xls', 'xlsx'];
+            var filename = $('#fileupload').val();
+            if (filename.length == 0) {
+                 $('#error').text("Please select a file");
+                return false;
+            }
+            else {
+                var extension = filename.replace(/^.*\./, '');
+                if ($.inArray(extension, fileExtension) == -1) {
+                     $('#error').text("Please select only excel files");
+                    return false;
+                }
+            }
+             $('#error').text("");
+            var fdata = new FormData();
+            var fileUpload = $("#fileupload").get(0);
+            var files = fileUpload.files;
+            fdata.append(files[0].name, files[0]);
+            $.ajax({
+                type: "POST",
+                url: "/Home/ShoWData",
+                data: fdata,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    if (response.length == 0)
+                        alert('Some error occured while uploading');
+                    else {
+                        $('#divPrint').html(response);
+                    }
+                },
+                error: function (e) {
+                    $('#divPrint').html(e.responseText);
+                }
+            });
+        })
+
+
+
+         $('#btnUpload').on('click', function () {
+            var fileExtension = ['xls', 'xlsx'];
+            var filename = $('#fileupload').val();
+            if (filename.length == 0) {
+                 $('#error').text("Please select a file");
+                return false;
+            }
+            else {
+                var extension = filename.replace(/^.*\./, '');
+                if ($.inArray(extension, fileExtension) == -1) {
+                     $('#error').text("Please select only excel files");
+                    return false;
+                }
+            }
+             $('#error').text("");
+            var fdata = new FormData();
+            var fileUpload = $("#fileupload").get(0);
+            var files = fileUpload.files;
+            fdata.append(files[0].name, files[0]);
+            $.ajax({
+                type: "POST",
+                url: "/Home/Import",
+                data: fdata,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    if (response.length == 0)
+                        alert('Some error occured while uploading');
+                    else {
+                        $('#msg').html(response);
+                    }
+                },
+                error: function (e) {
+                    $('#msg').html(e.responseText);
+                }
+            });
+        })
+    });
+</script>

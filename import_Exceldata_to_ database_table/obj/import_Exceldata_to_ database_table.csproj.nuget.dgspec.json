@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IBL\\import_Exceldata_to_ database_table\\import_Exceldata_to_ database_table\\import_Exceldata_to_ database_table.csproj": {}
+    "E:\\GitHubDemo\\Import Excel Data to Database Table\\ImportExcelToDatabaseDotNetCore\\import_Exceldata_to_ database_table\\import_Exceldata_to_ database_table.csproj": {}
   },
   "projects": {
-    "D:\\IBL\\import_Exceldata_to_ database_table\\import_Exceldata_to_ database_table\\import_Exceldata_to_ database_table.csproj": {
+    "E:\\GitHubDemo\\Import Excel Data to Database Table\\ImportExcelToDatabaseDotNetCore\\import_Exceldata_to_ database_table\\import_Exceldata_to_ database_table.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IBL\\import_Exceldata_to_ database_table\\import_Exceldata_to_ database_table\\import_Exceldata_to_ database_table.csproj",
+        "projectUniqueName": "E:\\GitHubDemo\\Import Excel Data to Database Table\\ImportExcelToDatabaseDotNetCore\\import_Exceldata_to_ database_table\\import_Exceldata_to_ database_table.csproj",
         "projectName": "import_Exceldata_to_ database_table",
-        "projectPath": "D:\\IBL\\import_Exceldata_to_ database_table\\import_Exceldata_to_ database_table\\import_Exceldata_to_ database_table.csproj",
+        "projectPath": "E:\\GitHubDemo\\Import Excel Data to Database Table\\ImportExcelToDatabaseDotNetCore\\import_Exceldata_to_ database_table\\import_Exceldata_to_ database_table.csproj",
         "packagesPath": "C:\\Users\\Borse Nitin\\.nuget\\packages\\",
-        "outputPath": "D:\\IBL\\import_Exceldata_to_ database_table\\import_Exceldata_to_ database_table\\obj\\",
+        "outputPath": "E:\\GitHubDemo\\Import Excel Data to Database Table\\ImportExcelToDatabaseDotNetCore\\import_Exceldata_to_ database_table\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

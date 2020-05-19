@@ -14,6 +14,7 @@ using DocumentFormat.OpenXml.Spreadsheet;
 using NPOI.SS.UserModel;
 using NPOI.XSSF.UserModel;
 using CellType = NPOI.SS.UserModel.CellType;
+using System.Text;
 
 namespace import_Exceldata_to__database_table.Controllers
 {
@@ -30,15 +31,12 @@ namespace import_Exceldata_to__database_table.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index(int id)
+        public IActionResult Index()
         {
-            if (id==1)
-            {
-                ViewBag.msg = "Data Import Succes!";
-            }
+          
             return View();
         }
-        public ActionResult Import()
+        public JsonResult Import()
         {
             IFormFile file = Request.Form.Files[0];
             string folderName = "Upload";
@@ -81,17 +79,81 @@ namespace import_Exceldata_to__database_table.Controllers
                         var data = _context.Employees.Where(a => a.Name == employee.Name).ToList();
                         if (data.Count == 0)
                         {
-                        _context.Employees.Add(employee);
-                        _context.SaveChanges();
+                            _context.Employees.Add(employee);
+                            _context.SaveChanges();
                         }
                     }
                 }
             }
 
-            return RedirectToAction("Index", new { Id = 1 });
+            return Json("Save Success!");
         }
 
-          public IActionResult Privacy()
+
+
+
+        public ActionResult ShoWData()
+        {
+            IFormFile file = Request.Form.Files[0];
+            string folderName = "Upload";
+            string webRootPath = _hostingEnvironment.WebRootPath;
+            string newPath = Path.Combine(webRootPath, folderName);
+            StringBuilder sb = new StringBuilder();
+            if (file.Length > 0)
+            {
+                string sFileExtension = Path.GetExtension(file.FileName).ToLower();
+                ISheet sheet;
+                string fullPath = Path.Combine(newPath, file.FileName);
+                using (var stream = new FileStream(fullPath, FileMode.OpenOrCreate))
+                {
+                    stream.Position = 0;
+                    if (sFileExtension == ".xls")
+                    {
+                        HSSFWorkbook hssfwb = new HSSFWorkbook(stream);
+                        sheet = hssfwb.GetSheetAt(0);
+                    }
+                    else
+                    {
+                        XSSFWorkbook hssfwb = new XSSFWorkbook(stream);
+                        sheet = hssfwb.GetSheetAt(0);
+                    }
+                    IRow headerRow = sheet.GetRow(0);
+                    int cellCount = headerRow.LastCellNum;
+                    sb.Append("<table class='table table-bordered'><tr>");
+                    for (int j = 0; j < cellCount; j++)
+                    {
+                        if (j == 0 || j == 30)
+                        {
+                            NPOI.SS.UserModel.ICell cell = headerRow.GetCell(j);
+                            if (cell == null || string.IsNullOrWhiteSpace(cell.ToString())) continue;
+                            sb.Append("<th>" + cell.ToString() + "</th>");
+                        }
+                       
+                    }
+                    sb.Append("</tr>");
+                    sb.AppendLine("<tr>");
+                    for (int i = (sheet.FirstRowNum + 1); i <= sheet.LastRowNum; i++)  
+                    {
+                        IRow row = sheet.GetRow(i);
+                        if (row == null) continue;
+                        if (row.Cells.All(d => d.CellType == CellType.Blank)) continue;
+                        for (int j = row.FirstCellNum; j < cellCount; j++)
+                        {
+                            if (j == 0 || j == 30)
+                            {
+                                if (row.GetCell(j) != null)
+                                    sb.Append("<td>" + row.GetCell(j).ToString() + "</td>");
+                            }
+                        }
+                        sb.AppendLine("</tr>");
+                    }
+                    sb.Append("</table>");
+                }
+            }
+            return this.Content(sb.ToString());
+        }
+
+        public IActionResult Privacy()
         {
             return View();
         }
