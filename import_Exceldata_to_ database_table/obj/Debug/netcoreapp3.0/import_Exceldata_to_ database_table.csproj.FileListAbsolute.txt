@@ -1,0 +1,78 @@
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\appsettings.Development.json
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\appsettings.json
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.exe
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.deps.json
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.runtimeconfig.json
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.runtimeconfig.dev.json
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.pdb
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.Views.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.Views.pdb
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.csprojAssemblyReference.cache
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\staticwebassets\import_Exceldata_to_ database_table.StaticWebAssets.Manifest.cache
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\staticwebassets\import_Exceldata_to_ database_table.StaticWebAssets.xml
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.RazorAssemblyInfo.cache
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.RazorAssemblyInfo.cs
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.AssemblyInfoInputs.cache
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.AssemblyInfo.cs
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.TagHelpers.input.cache
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.TagHelpers.output.cache
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.RazorCoreGenerate.cache
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.RazorTargetAssemblyInfo.cache
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.RazorTargetAssemblyInfo.cs
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.Views.pdb
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.pdb
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.csproj.CopyComplete
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\NPOI.OOXML.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\NPOI.OpenXml4Net.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\NPOI.OpenXmlFormats.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\NPOI.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\BouncyCastle.Crypto.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\ICSharpCode.SharpZipLib.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\DocumentFormat.OpenXml.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\System.IO.Packaging.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.Bcl.HashCode.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp3.0\import_Exceldata_to_ database_table.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "import_Exceldata_to_ database_table", "import_Exceldata_to_ database_table\import_Exceldata_to_ database_table.csproj", "{7642EDCB-8DEC-4A16-815B-099FAED0ECB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7642EDCB-8DEC-4A16-815B-099FAED0ECB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7642EDCB-8DEC-4A16-815B-099FAED0ECB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7642EDCB-8DEC-4A16-815B-099FAED0ECB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7642EDCB-8DEC-4A16-815B-099FAED0ECB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F62D410-A7AD-4622-8C79-869C807CF27F}
+	EndGlobalSection
+EndGlobal

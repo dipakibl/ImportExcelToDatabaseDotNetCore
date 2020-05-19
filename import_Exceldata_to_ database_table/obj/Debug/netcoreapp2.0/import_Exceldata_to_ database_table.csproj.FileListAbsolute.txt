@@ -1,0 +1,3 @@
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp2.0\import_Exceldata_to_ database_table.csprojAssemblyReference.cache
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp2.0\import_Exceldata_to_ database_table.AssemblyInfoInputs.cache
+D:\IBL\import_Exceldata_to_ database_table\import_Exceldata_to_ database_table\obj\Debug\netcoreapp2.0\import_Exceldata_to_ database_table.AssemblyInfo.cs
